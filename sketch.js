@@ -60,7 +60,7 @@ if(gameState === "HOME"){
     textSize(30);
     text("Press 4 to start in very hard mode",width/2 - 200,height/2 + 200);
     if(keyDown("0")){
-        gameState = "INT"; 
+        gameState = "INTS"; 
         background(homeScreenImg);
     }
     if(keyDown("1")){
@@ -100,7 +100,7 @@ if(gameState === "HOME"){
         player.addAnimation('player',playerImageWalk);
     }
 }
-if(gameState === "INT"){
+if(gameState === "INTS"){
     background(homeScreenImg);
     textSize(30);
     fill("black")
